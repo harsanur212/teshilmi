@@ -1,0 +1,8 @@
+.tab3 {
+  display: none;
+  min-height: 100vh;
+  background-color: lime;
+}
+.tab3 .fto {
+  width: 100%;
+}

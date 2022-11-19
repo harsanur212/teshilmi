@@ -1,0 +1,86 @@
+.tab2 {
+  display: none;
+}
+.bg2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  min-height: 100vh;
+  background-image: url("img/bg5.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* --------------------------- */
+.logo2 {
+  height: 25vh;
+  position: absolute;
+  top: 15vh;
+  right: 0vh;
+  left: 0vh;
+}
+.logo2 img {
+  height: inherit;
+}
+/* ----------------------------------- */
+.text2 {
+  position: absolute;
+  top: 50vh;
+  right: 0vh;
+  left: 0vh;
+  letter-spacing: 1vh;
+  text-shadow: 0.5vh 0.5vh 1vh white, 0vh 0vh 5vh blue, 0vh 0vh 1vh white;
+}
+/* ----------------------------------- */
+#clockdiv {
+  /* color: aliceblue; */
+  display: inline-block;
+  font-size: 3vh;
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  top: 10vh;
+  left: 0vh;
+  right: 0vh;
+}
+#clockdiv > .waktu {
+  display: inline-block;
+}
+#clockdiv .waktu > span {
+  display: inline-block;
+  padding: 0 1vh;
+}
+.smalltext {
+  font-size: 2vh;
+  letter-spacing: 0;
+}
+/* ---------------------------------------- */
+.marquee {
+  position: relative;
+  height: 12vh;
+  overflow: hidden;
+  top: 85vh;
+}
+.marquee .ft {
+  display: flex;
+  width: 207vw;
+  position: absolute;
+  overflow: hidden;
+  animation: marquee 12s linear infinite;
+}
+.marquee span {
+  float: left;
+  width: 50%;
+}
+span img {
+  border-radius: 12vh;
+  height: 10vh;
+}
+@keyframes marquee {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -104vw;
+  }
+}
